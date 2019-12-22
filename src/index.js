@@ -2,12 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 
-
 import * as serviceWorker from "./serviceWorker";
 import { Route, BrowserRouter as Router } from "react-router-dom";
 import { MyNavbar } from "./Navbar";
-
-import './App.css';
+import Products from "./Products";
+import "./App.css";
 import "./index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -30,6 +29,7 @@ const routing = (
 				<Route path='/' exact component={App} />
 				<Route path='/users' component={Users} />
 				<Route path='/contact' component={Contact} />
+				<Route path='/products' component={Products} />
 			</div>
 		</Router>
 	</>

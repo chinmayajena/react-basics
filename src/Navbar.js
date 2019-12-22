@@ -8,6 +8,8 @@ import {
 	Button
 } from "react-bootstrap";
 import { Link } from "react-router-dom";
+
+
 export const MyNavbar = () => {
 	return (
 		<div>
@@ -20,8 +22,8 @@ export const MyNavbar = () => {
 						<Nav.Link as={Link}  to='/users'>Users</Nav.Link>
 						<NavDropdown title='Organization' id='basic-nav-dropdown'>
 							<NavDropdown.Item as={Link} to="/contact">Contact</NavDropdown.Item>
-							<NavDropdown.Item href='#action/3.2'>
-								Another action
+							<NavDropdown.Item as={Link} to="/products">
+								Products
 							</NavDropdown.Item>
 							<NavDropdown.Item href='#action/3.3'>Something</NavDropdown.Item>
 							<NavDropdown.Divider />
