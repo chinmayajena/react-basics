@@ -18,7 +18,7 @@ export const MyNavbar = () => {
 					<Nav className='mr-auto'>
 						<Nav.Link as={Link}  to='/'>Home</Nav.Link>
 						<Nav.Link as={Link}  to='/users'>Users</Nav.Link>
-						<NavDropdown title='Dropdown' id='basic-nav-dropdown'>
+						<NavDropdown title='Organization' id='basic-nav-dropdown'>
 							<NavDropdown.Item as={Link} to="/contact">Contact</NavDropdown.Item>
 							<NavDropdown.Item href='#action/3.2'>
 								Another action
