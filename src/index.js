@@ -1,14 +1,26 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
 import App from "./App";
+
+
 import * as serviceWorker from "./serviceWorker";
-import "bootstrap/dist/css/bootstrap.min.css";
 import { Route, BrowserRouter as Router } from "react-router-dom";
 import { MyNavbar } from "./Navbar";
 
-const Users = () => <h3>I am User!</h3>;
-const Contact = () => <h3>I am contact!</h3>;
+import './App.css';
+import "./index.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+
+const Users = () => (
+	<div className='App'>
+		<h3>I am User!</h3>
+	</div>
+);
+const Contact = () => (
+	<div className='App'>
+		<h3>I am contact!</h3>
+	</div>
+);
 
 const routing = (
 	<>
